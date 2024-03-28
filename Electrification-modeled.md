@@ -1,5 +1,5 @@
 
-# Methodology Document
+# Electrification - Modeled Methodology Document
  - Name: **NREL ResStock Scaled by Square Footage**
  - Developer: **WattCarbon**
  - Revision Date: **2023-03-15**
