@@ -5,7 +5,7 @@ This is the homepage for the current versions of the methodologies that allow Wa
 The methodologies in each folder are reviewed by members of the OpenEAC Alliance, a volunteer organization comprised of individuals and organizations with experience developing measurement and verification techniques. Each methodology may be reviewed by one or more members of the OpenEAC Alliance and each change to a methodology will require notification of all reviewers. All comments and suggestions for updates will be recorded within the "Issues" tab.
 
 Methodology Quick Links
-- [Electrification EACs using calibrated load shape models](https://github.com/wattcarbon/WEATS/blob/main/Electrification-modeled)
+- [Electrification EACs using calibrated load shape models](https://github.com/wattcarbon/WEATS/blob/main/Electrification-modeled.md)
 - Electrification EACs using pre and post meter data
 - Solar EACs using inverter data
 - Battery EACs using inverter data
