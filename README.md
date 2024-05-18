@@ -13,4 +13,4 @@ Methodology Quick Links
 - Energy efficiency EACs using a physics model
 - Energy efficiency EACs using pre and post meter data
 - Smart Thermostat EACs using a control group
-- Hourly Grid Emissions
+- [Hourly Grid Emissions](https://github.com/wattcarbon/WEATS/blob/main/hourly-grid-emissions.md)
