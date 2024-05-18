@@ -7,8 +7,7 @@ The methodologies in each folder are reviewed by members of the OpenEAC Alliance
 Methodology Quick Links
 - [Electrification EACs using calibrated load shape models](https://github.com/wattcarbon/WEATS/blob/main/Electrification-modeled.md)
 - Electrification EACs using pre and post meter data
-- Solar EACs using inverter data
-- Battery EACs using inverter data
+- [Solar and Battery EACs using inverter data](https://github.com/wattcarbon/WEATS/blob/main/solar-and-battery-EACs.md)
 - Demand Response EACs using a 5 in 10 baseline
 - Energy efficiency EACs using a physics model
 - Energy efficiency EACs using pre and post meter data
