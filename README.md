@@ -10,6 +10,6 @@ Methodology Quick Links
 - [Solar and Battery EACs using inverter data](https://github.com/wattcarbon/WEATS/blob/main/solar-and-battery-EACs.md)
 - Demand Response EACs using a 5 in 10 baseline
 - Energy efficiency EACs using a physics model
-- Energy efficiency EACs using pre and post meter data
+- [Energy efficiency EACs using pre and post meter data](https://github.com/wattcarbon/WEATS/blob/main/energy-efficiency-metered-c3.md)
 - Smart Thermostat EACs using a control group
 - [Hourly Grid Emissions](https://github.com/wattcarbon/WEATS/blob/main/hourly-grid-emissions.md)
