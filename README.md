@@ -8,7 +8,7 @@ Methodology Quick Links
 - [Electrification EACs using calibrated load shape models](https://github.com/wattcarbon/WEATS/blob/main/Electrification-modeled.md)
 - Electrification EACs using pre and post meter data
 - [Solar and Battery EACs using inverter data](https://github.com/wattcarbon/WEATS/blob/main/solar-and-battery-EACs.md)
-- Demand Response EACs using a 5 in 10 baseline
+- [Demand Response EACs using a 5 in 10 baseline](https://github.com/wattcarbon/WEATS/blob/main/demand-response-fiveten.md)
 - Energy efficiency EACs using a physics model
 - [Energy efficiency EACs using pre and post meter data](https://github.com/wattcarbon/WEATS/blob/main/energy-efficiency-metered-c3.md)
 - Smart Thermostat EACs using a control group
