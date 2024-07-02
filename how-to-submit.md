@@ -27,3 +27,8 @@ _This guide walks you through how to submit your methodology onto this WEATS doc
 7. This will redirect you to a page that will allow you to add information that will be publicly shown alongside the methodology. This is where you can provide a summary of the methodology as well as any additional information you’d want reviewers to see. This can even include supplementary files. When you are done, click the “Create pull request” and a pull request will show up in the WEATS repository for review!
 
 ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcjDZ84C83-h-i4HA94k99InZlpXrEZfp0IzTKyZTZrnX8ndZUCusyBY7VaT6MzDF2_kzIEgy9m3-BT4a0aYW9a83SL2ZQSva4XCb_YWuWJXeTFGnz6xhpmnw8e047cDs9vWtHHWtooPo-0U-Zh5x0YcDdN?key=aRRrnxOzZnP06EN6jI_DLw)
+
+8. After clicking the “Create pull request” button, your Pull Request should show up on the WEATS Repository. You should be able to see it by clicking the “Pull Requests Tab”.
+
+![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfEF_yqz7fCMPrz2Z-AMf4cxHtIphRQLcTAdAAtWJCsE_rC-nHal-7sigLRpJ24g9VspkwYaeCWnqtaynlzvQySuUYRqC6qWb4NGMF3tkdy2YqQkq5LchsCidHYQ-PP0BlL9yL3KIdWWN3yJtNecSDru84?key=aRRrnxOzZnP06EN6jI_DLw)
+
