@@ -16,7 +16,7 @@ https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-git
 
 **Developed by**: *[PeerCo](www.peerco.earth)*
 
-**Revision date**: *June 7th 2024*
+**Revision date**: *July 5th 2024*
 
 **Sectoral scope**:  *Energy / Energy Distribution / Energy Demand / Carbon Capture and Storage*
 
@@ -132,7 +132,7 @@ All self-consumption data (and related generation data) shall be quality control
 3. no significant PV generation is happening when there is no solar irradiance (e.g. at night).
 
 Where data is missing, filling of the gaps sall be allowed under the following conditions:
-1. data is not missing more than 5% of the time,
+1. data is not missing more than 5% of the time within a calendar month,
 2. gaps are filled with data whose daily profile and magnitude is consistent with the rest of the asset generation,
 3. if accumulated values are available for the relevant energy measurements, the sum of the generation over the missing data periods shall equate the generation indicated in the accumulated measurements.
 
@@ -140,15 +140,14 @@ When carrying out this asset data verification, a tolerance should be given for 
 
 ### Emission intensity data
 
-The emission intensity data used in calculations shall originate from the source in the table below for the geography corresponding to the location of the assets.
+The emission intensity data used in calculations shall meet the following requirements:
 
-| Geography     | Emission intensity source                              |
-|---------------|--------------------------------------------------------|
-| Great Britain | [National Grid ESO's *carbonintensity.org.uk* API](https://www.carbonintensity.org.uk/) |
-| Germany, Nigeria, Portugal, Spain, South-Africa, Switzerland | [ElectricityMaps API](https://www.electricitymaps.com/) |
+1. the time resolution of the data is hourly or higher,
+2. the geographical resolution of the data is country-level or higher,
+3. the signal corresponds to an average emission intensity,
+4. the source of the carbon intensity data shall be recorded as part of the digital asset generated.
 
-The source of the carbon intensity data shall be recorded as part of the digital asset generated.
-
+Data may originate from one of the sources listed in *Appendix 2*.
 
 ## Verification and additionality
 
@@ -267,3 +266,14 @@ The concept of additionality is that a project or investment would not have happ
 Small-scale, self-consumed solar electricity is additional because it has the potential to enable grid systems to decarbonise faster by generating electricity at the location of consumption, within the low voltage, electricity network (after the substation). Small-scale, intermittent, solar electricity that is exported to the grid can create capacity problems in local areas, requiring investment, but its delivery at scale can also reduce the need for larger investments in the transmission network. Incentivising self-consumption of solar is a win-win where the local burden on the network is reduced in tandem with overall demand. Furthermore, more local solar PV and on-site use, supports Sustainable Development Goal 7 - Affordable and Clean Energy, by capturing the carbon value and making it more affordable.
 
 Additionally, there may be situations where solar was delivered as a requirement for development approval for a larger project. PeerCo is valuing the carbon reduction that is delivered by choice, not as a requirement. In some countries and regions, there are financial incentives that may shift the financial case for a solar investment and self-consumption, and for these reasons, PeerCo is assessing the applicability of this methodology on a country by country basis. 
+
+## Appendix 2 - potential sources of emission intensity data
+
+The emission intensity data used in calculations shall originate from the source in the table below for the geography corresponding to the location of the assets.
+
+| Geography     | Emission intensity source                              |
+|---------------|--------------------------------------------------------|
+| Great Britain | [National Grid ESO's *carbonintensity.org.uk* API](https://www.carbonintensity.org.uk/) |
+| Global        | [ElectricityMaps API](https://www.electricitymaps.com/) |
+
+The source of the carbon intensity data shall be recorded as part of the digital asset generated.
