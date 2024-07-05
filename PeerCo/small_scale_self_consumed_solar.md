@@ -52,7 +52,9 @@ The following terminology is used throughout this document to outline requiremen
 
 - **Digital certificate** is a generic term designating environmental attributes in digital form generated using this methodology. Examples of these include EACs and carbon credits. 
 
-- **Emission intensity** (or *carbon intensity*) is a measure of how clean grid electricity is. It refers to how many grams of carbon dioxide equivalent (gCO2e) are released to produce a kilowatt hour (kWh) of electricity. In this methodology, an *average* measure of this factor *on the demand side* is considered at every point in time, meaning that this number reflects the carbon intensity of the *average kilowatt-hour consumed* in a given time period.
+- **Emission intensity** (or *carbon intensity*) is a measure of how clean grid electricity is. It refers to how many grams of carbon dioxide equivalent (gCO2e) are released to produce a kilowatt hour (kWh) of electricity. In this methodology, an *average* measure of this factor *on the demand side* is considered at every hour and for a given grid area, meaning that this number reflects the carbon intensity of the *average kilowatt-hour consumed* in this given hour and grid region.
+
+- **Grid region** is a generic term used here to refer to a specific sub-division of a large-scale power system. This may be a balancing region, a country-wide grid, a market-bidding region depending on the local context. The spatial resolution used for the grid region used in a given application should be as granular as allowed by the data available.
 
 - **PV asset** is a set of photovoltaic arrays and associated inverter(s) converting solar irradiance to electrical power.   
 
@@ -144,7 +146,7 @@ The emission intensity data used in calculations shall meet the following requir
 
 1. the time resolution of the data is hourly or higher,
 2. the geographical resolution of the data is country-level or higher,
-3. the signal corresponds to an average emission intensity,
+3. the signal corresponds to an average emission intensity of *consumed* electricity,
 4. the source of the carbon intensity data shall be recorded as part of the digital asset generated.
 
 Data may originate from one of the sources listed in *Appendix 2*.
@@ -191,8 +193,9 @@ The digital certificates resulting from this verification methodology shall cont
     - Date when the commercial operation of the system started
 
 - Grid connection information for the site:
-    - Market bidding zone
-    - Identification of the grid connection
+    - Grid region type (e.g. "market-bidding zone")
+    - Identifier of the grid region (e.g. "UK")
+    - Identification of the grid connection (such as power meter number), where this identifier should correspond to the standard identification for the country/zone of application when such a standard exists (e.g. MPAN meter numbers in the United Kingdom).
 
 - Time information about the period:
     - Start timestamp
