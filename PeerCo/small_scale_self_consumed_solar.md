@@ -54,6 +54,8 @@ The following terminology is used throughout this document to outline requiremen
 
 - **Emission intensity** (or *carbon intensity*) is a measure of how clean grid electricity is. It refers to how many grams of carbon dioxide equivalent (gCO2e) are released to produce a kilowatt hour (kWh) of electricity. In this methodology, an *average* measure of this factor *on the demand side* is considered at every hour and for a given grid area, meaning that this number reflects the carbon intensity of the *average kilowatt-hour consumed* in this given hour and grid region.
 
+- **High resolution data** is data whose time resolution is hourly or sub-hourly (e.g. every 15 or 30 minutes).
+
 - **Grid region** is a generic term used here to refer to a specific sub-division of a large-scale power system. This may be a balancing region, a country-wide grid, a market-bidding region depending on the local context. The spatial resolution used for the grid region used in a given application should be as granular as allowed by the data available.
 
 - **PV asset** is a set of photovoltaic arrays and associated inverter(s) converting solar irradiance to electrical power.   
@@ -70,7 +72,7 @@ The system to which the methodology is applied shall meet the following requirem
 
 2. the system is a fixed installation, meaning that the PV system is mounted on a unique specific site where it will operate throughout the project
 
-3. generation is measured by a digital meter with hourly (or sub-hourly) resolution whose data can be communicated automatically by digital means
+3. generation is measured by the inverter(s) or a digital meter with high resolution data, which can either be communicated automatically by digital means (e.g. Rest API) or retrieved manually
 
 4. the asset owner documents the following:
 
@@ -84,6 +86,11 @@ The system to which the methodology is applied shall meet the following requirem
 
 6. the asset owner or operator is not already being rewarded for self-consumption by another entity (e.g. government subsidies, ...)
 
+7. site demand is measured by a digital meter with high resolution data, which can either be communicated automatically by digital means or retrieved manually
+
+In cases where power is exported from the site (i.e. not all solar generation is self-consumed), the following requirements shall also be met:
+
+8. the electricity export from the site is measured by a digital meter with high resolution data, which can either be communicated automatically by digital means or retrieved manually.
 
 ### Requirements on the system during the project lifetime
 
