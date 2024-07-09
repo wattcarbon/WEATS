@@ -18,7 +18,7 @@ https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-git
 
 **Revision date**: *July 5th 2024*
 
-**Sectoral scope**:  *Energy / Energy Distribution / Energy Demand / Carbon Capture and Storage*
+**Sectoral scope**:  *Energy / Energy Distribution / Energy Demand*
 
 
 ## Summary description
