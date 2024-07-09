@@ -86,7 +86,7 @@ The system to which the methodology is applied shall meet the following requirem
 
 6. the asset owner or operator is not already being rewarded for self-consumption by another entity (e.g. government subsidies, ...)
 
-7. site demand is measured by a digital meter with high resolution data, which can either be communicated automatically by digital means or retrieved manually
+7. site demand (either as total demand or grid import) is measured by a digital meter with high resolution data, which can either be communicated automatically by digital means or retrieved manually
 
 In cases where power is exported from the site (i.e. not all solar generation is self-consumed), the following requirements shall also be met:
 
