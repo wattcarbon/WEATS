@@ -139,10 +139,7 @@ All self-consumption data (and related generation data) shall be quality control
 2. self-consumption is always lower than the total consumption,
 3. no significant PV generation is happening when there is no solar irradiance (e.g. at night).
 
-Where data is missing, filling of the gaps sall be allowed under the following conditions:
-1. data is not missing more than 5% of the time within a calendar month,
-2. gaps are filled with data whose daily profile and magnitude is consistent with the rest of the asset generation,
-3. if accumulated values are available for the relevant energy measurements, the sum of the generation over the missing data periods shall equate the generation indicated in the accumulated measurements.
+Where data is missing, data filling (e.g. with interpolation) shall not be carried out. Digital certificates shall therefore be generated based upon measured data only.
 
 When carrying out this asset data verification, a tolerance should be given for numerical purposes (e.g. to account for rounding of measurements by digital systems). This tolerance shall however not be of a magnitude that significantly impacts the volume of the certificates generated.
 
