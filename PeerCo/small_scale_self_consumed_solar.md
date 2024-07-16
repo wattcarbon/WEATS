@@ -45,6 +45,9 @@ The following terminology is used throughout this document to outline requiremen
 | CDM     | Clean development mechanism |
 | EAC     | Energy Attribute Certificate |
 | GHG     | Greenhouse gas(es)  |
+| kWh     | Kilowatt-hour (energy unit) |
+| kWp     | Kilowatt peak (installed capacity power unit for PV) |
+| MWp     | Megawatt peak (installed capacity power unit for PV) |
 | PV      | Photovoltaic        |
 | UN      | United Nations      |
 
