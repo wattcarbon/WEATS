@@ -83,7 +83,7 @@ The system to which the methodology is applied shall meet the following requirem
 
     b. location of the installation (address, or GPS coordinates if an address is not available)
 
-    c. date of installation
+    c. date when the PV panel started generating power on this site
 
 5. the power produced by the PV asset does not displace other on-site power generation (i.e. there is no on-site power generation whose output is affected by the generation of the PV asset)
 
@@ -193,10 +193,10 @@ The digital certificates resulting from this verification methodology shall cont
 - PV asset informations:
     - Name of the production device
     - A unique identifier
-    - Address where it is installed (optional if GPS coordinates are provided)
+    - Address of the site where it is installed (optional if GPS coordinates are provided)
     - GPS coordinates of the installation (optional if full address is provided, as it will be inferred from it)
     - Rated power (kWp)
-    - Date when the commercial operation of the system started
+    - Date when the PV panel started generating power on the site
 
 - Grid connection information for the site:
     - Grid region type (e.g. "market-bidding zone")
