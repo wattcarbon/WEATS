@@ -212,7 +212,8 @@ The digital certificates resulting from this verification methodology shall cont
 
 - Emission intensity of the grid:
     - Average emission intensity of the grid over the period
-    - Source of the average emission intensity data
+    - Source of the average emission intensity data (e.g. "carbonintensity.org.uk")
+    - Identifier of the grid region corresponding to the emission intensity data (e.g. "London")
 
 - Details about certificate issuance:
     - Timestamp when the certificate was generated
