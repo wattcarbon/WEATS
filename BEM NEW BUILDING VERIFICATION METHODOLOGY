@@ -1,0 +1,89 @@
+NEW BUILDING VERIFICATION METHODOLOGY FOR WATTCARBON
+
+ENERGY ATTRIBUTE CREDITS (EACS) AND ENERGY ATTRIBUTE TRACKING SYSTEM (WEATS)
+
+INTRODUCTION
+
+AUROS Group developed the following new building EAC verification methodology to be used in the
+
+WEATS platform for the transaction of operational carbon savings from the decarbonization of new
+
+buildings. This methodology is intended to be used when buildings do not have metered, hourly
+
+consumption data. Using calibrated, physics-based dynamic whole-building simulation energy
+
+models, authenticated hourly consumption metrics can be simulated and generated.
+
+DEFINED TERMS
+
+Building Energy Model (BEM) is a physics-based software simulation that dynamically (8760) predicts
+
+a building\&#39;s hourly energy use. BEM takes input from a variety of sources, including, but not limited
+
+to, building geometry, construction materials, lighting, HVAC, refrigeration, water heating, and
+
+renewable generation systems, component efficiencies, control strategies, building use and operation
+
+schedules, and local weather. Acceptable BEM software are IES VE, eQuest, and EnergyPlus.
+
+Baseline BEM (BEM baseline ) represents buildings that would have otherwise been designed and
+
+constructed to meet the minimum requirements of local building codes using a Time Period of carbon
+
+emissions prior to building operations. In that instance, the BEM must comply with ASHRAE
+
+Standard 90.1-2010 compliance, which provides the minimum requirements for energy-efficient
+
+design of most buildings. The model uses 30-year meteorological hourly weather data.
+
+Betterment BEM (BEM betterment ) is a representative BEM of the existing building using a Time Period of
+
+carbon emissions after decarbonization mitigation. The BEM is calibrated as defined in Model
+
+Calibration within the limits of ASHRAE Guidelines 14-2023 using meteorological hourly weather data
+
+for the same Time Period.
+
+Model Calibration according to ASHRAE guideline 14-2023 Section 4.3.2.4 Whole-Building Calibrated
+
+Simulation Performance Path requires minimum acceptable model calibration of a normalized mean
+
+bias error (NMBE) of 5% and a coefficient of variation of the root-mean-square error of (CV\[RMSE]) of
+
+15% relative to monthly calibration data.
+
+Time Period for new buildings is the consecutive 12-month period of time ending at the completion of
+
+construction for the new building. For existing buildings, the Time Period is any consecutive 12-month
+
+period of time where acceptable utility consumption data is available for all forms of energy used
+
+within the building.
+
+Source Data represents meteorological hourly weather data used in the BEM and consumption data
+
+for all forms of energy from monthly utility consumption data, metered, hourly consumption data, or
+
+another data source, approved by WattCarbon, that represents actual building performance for the
+
+representative Time Period.
+
+VERIFICATION METHODOLOGY FOR BUILDING DECARBONIZATION
+
+When metered, hourly consumption data is not available for new buildings, calibrated physics-based
+
+dynamics whole-building simulation energy BEM models can be used to generate authenticated
+
+hourly consumption data for transactional purposes.
+
+The intent of using BEM models is to simulate and generate authenticated EAC (EAC a ) hourly
+
+consumption data for the WEATS platform for all buildings that do not have metered, hourly
+
+consumption data. This verification methodology reliably converts monthly utility data to transactable,
+
+authenticated hourly consumption data using proven building science technology.
+
+The mathematical methodology for the hourly time series data is as follows:
+
+BEM baseline – BEM betterment = EAC a
