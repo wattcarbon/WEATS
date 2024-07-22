@@ -44,6 +44,7 @@ Calibration within the limits of ASHRAE Guidelines 14-2023 using meteorological 
 
 for the same Time Period.
 
+
 Model Calibration according to ASHRAE guideline 14-2023 Section 4.3.2.4 Whole-Building Calibrated
 
 Simulation Performance Path requires minimum acceptable model calibration of a normalized mean
@@ -68,7 +69,8 @@ another data source, approved by WattCarbon, that represents actual building per
 
 representative Time Period.
 
-VERIFICATION METHODOLOGY FOR BUILDING DECARBONIZATION
+
+**VERIFICATION METHODOLOGY FOR BUILDING DECARBONIZATION**
 
 When metered, hourly consumption data is not available for new buildings, calibrated physics-based
 
