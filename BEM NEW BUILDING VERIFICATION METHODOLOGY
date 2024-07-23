@@ -14,7 +14,7 @@ consumption data. Using calibrated, physics-based dynamic whole-building simulat
 
 models, authenticated hourly consumption metrics can be simulated and generated.
 
-DEFINED TERMS
+**DEFINED TERMS**
 
 Building Energy Model (BEM) is a physics-based software simulation that dynamically (8760) predicts
 
