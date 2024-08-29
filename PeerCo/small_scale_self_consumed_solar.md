@@ -71,7 +71,7 @@ This section lays out the requirements on a given context for this methodology t
 
 The system to which the methodology is applied shall meet the following requirements to be eligible:
 
-1. the rating of the PV is between 30 kWp and 5 MWp
+1. the rating of the PV is below 5 MWp
 
 2. the system is a fixed installation, meaning that the PV system is mounted on a unique specific site where it will operate throughout the project
 
