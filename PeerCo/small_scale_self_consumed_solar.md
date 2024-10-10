@@ -23,7 +23,7 @@ https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-git
 
 ## Summary description
 
-This methodology for measurements and verification of self-consumed small-scale on-site solar generation on a given site. The purpose of this methodology is to generate *Environmental Attribute Certificates* representing the self-consumed solar energy (at a specific time and geographical location), which can then be used in reporting or traded.
+This methodology is for measurements and verification of self-consumed small-scale on-site solar generation on a given site. The purpose of this methodology is to generate *Environmental Attribute Certificates* representing the self-consumed solar energy (at a specific time and geographical location), which can then be used in reporting or traded.
 
 ## Definitions
 
