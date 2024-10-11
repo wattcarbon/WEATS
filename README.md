@@ -11,13 +11,13 @@ For meeting updates and up-to-date communication, see our [substack](https://www
 
 ## Methodology Queue
 
-| Category           | Methodology                                      | Developer     |
-| ------------------ | ------------------------------------------------ | -------------- |
-| Solar              | Self-Consumed                                    | PeerCo         |
-| Energy Efficiency  | Whole-building Metered Lighting                  | C3             |
-| Energy Efficiency  | Existing Construction Whole-building Simulation  | Auros Group    |
-| Energy Efficiency  | New Construction Whole-building Simulation       | Auros Group    |
-| Electrification    | NREL ResStock Deemed Loadshapes                  | WattCarbon     |
+| Category           | Methodology                                      | Developer      | Pull Request       | 
+| ------------------ | ------------------------------------------------ | -------------- | ------------------ |
+| Solar              | Self-Consumed                                    | PeerCo         | wattcarbon/WEATS#2 |
+| Energy Efficiency  | Whole-building Metered Lighting                  | C3             | wattcarbon/WEATS#3 | 
+| Energy Efficiency  | Existing Construction Whole-building Simulation  | Auros Group    | wattcarbon/WEATS#5 |
+| Energy Efficiency  | New Construction Whole-building Simulation       | Auros Group    | wattcarbon/WEATS#4 |
+| Electrification    | NREL ResStock Deemed Loadshapes                  | WattCarbon     | wattcarbon/WEATS#6 | 
 
 ## Published Methodologies
 
